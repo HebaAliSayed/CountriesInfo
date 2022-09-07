@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference
+        app:fragment="com.jwhh.countriesinfo.SettingsActivity$GeneralFragment"
+        app:icon="@drawable/ic_baseline_error_24"
+        app:key="messages_header"
+        app:title="@string/general_header" />
+    <Preference
+        app:fragment="com.com.jwhh.countriesinfo.SettingsActivity$SyncFragment"
+        app:icon="@drawable/ic_baseline_settings_24"
+        app:key="sync_header"
+        app:title="@string/sync_header" />
+        />
+</PreferenceScreen>
